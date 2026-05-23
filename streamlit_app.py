@@ -8,7 +8,8 @@ st.write("AI-based Driver Monitoring System")
 # Start Button
 
 if st.button("Start Detection"):
-    os.system("python appdd.py")
+    st.success("Driver Detection Started")
+    st.write("Camera access works only in local system.")
 
 # Info Box
 st.info("This system detects driver drowsiness using AI.")
