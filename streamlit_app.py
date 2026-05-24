@@ -4,18 +4,17 @@ import os
 
 st.title("Driver Drowsiness Detection System")
 
-st.write("AI-based Driver Monitoring System")
-st.write("press 'Q' to close the camera window")
-
+st.write("AI based Driver Monitoring System")
+st.write("Press 'Q' to close the camera window")
 # Start Button
 
 if st.button("Start Detection"):
-     os.system("python appdd.py")
+    st.success("Driver Detection Started")
+    st.success("Camera access works only in local system.")
+    os.system("python appdd.py")
 
 
-    
-
-# Info Box
+#info
 st.info("This system detects driver drowsiness using AI.")
 
 # Features
@@ -23,7 +22,8 @@ st.write("""
 Features:
 - Eye Closure Detection
 - Head Pose Detection
-- Alarm Alert
+- Alarm Alertimg = frame.to_ndarray(format="bgr24")
+
 - Screenshot Capture
 """)
 
