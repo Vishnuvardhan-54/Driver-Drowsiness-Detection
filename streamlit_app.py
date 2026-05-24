@@ -1,15 +1,19 @@
 import streamlit as st
+
 import os
 
 st.title("Driver Drowsiness Detection System")
 
 st.write("AI-based Driver Monitoring System")
+st.write("press 'Q' to close the camera window")
 
 # Start Button
 
 if st.button("Start Detection"):
-    st.success("Driver Detection Started")
-    st.write("Camera access works only in local system.")
+     os.system("python appdd.py")
+
+
+    
 
 # Info Box
 st.info("This system detects driver drowsiness using AI.")

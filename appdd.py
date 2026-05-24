@@ -21,12 +21,12 @@ face_cascade = cv2.CascadeClassifier(face_path)
 eye_cascade = cv2.CascadeClassifier(eye_path)
 
 #CAMERA SETUP
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 #DROWSINESS SETUP
 counter = 0
 status =  "ACTIVE"
-EAR_THRESHOLD = 0.18
+EAR_THRESHOLD = 0.25
 
 #EYE LANDMARKS
 LEFT_EYE = [33, 160, 158, 133, 153, 144]
