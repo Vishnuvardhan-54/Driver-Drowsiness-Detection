@@ -87,7 +87,7 @@ Alert when driver appears drowsy
 Monitor head movement and direction
 🚀 How to Run the Project
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/Driver-Drowsiness-Detection.git
+git clone https://github.com/Vishnuvardhan-54/Driver-Drowsiness-Detection.git
 2️⃣ Open Project Folder
 cd Driver-Drowsiness-Detection
 3️⃣ Install Required Libraries
