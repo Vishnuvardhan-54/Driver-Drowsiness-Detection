@@ -1,56 +1,4 @@
-Driver Drowsiness Detection System 🚗💤
 
-An AI-based Driver Monitoring System that detects driver drowsiness in real time using Computer Vision and webcam input.
-
-📌 Features
-Eye Closure Detection
-Head Pose Detection
-Face & Eye Tracking
-Drowsiness Alert System
-Screenshot Capture
-Real-time Webcam Monitoring
-🛠️ Tech Stack
-Python
-OpenCV
-MediaPipe
-Streamlit
-NumPy
-🚀 How to Run
-1️⃣ Clone Repository
-git clone <your-github-link>
-2️⃣ Install Requirements
-pip install -r requirements.txt
-3️⃣ Run Application
-streamlit run streamlit_app.py
-📷 Note
-
-Camera access works only in local system environment.
-
-🎯 Project Goal
-
-This project helps improve road safety by detecting driver drowsiness and providing alerts in real time.
-
-📂 Project Structure
-Driver-Drowsiness-Detection/
-│
-├── appdd.py
-├── streamlit_app.py
-├── requirements.txt
-├── README.md
-└── screenshots/
-📸 Demo
-
-Add your screenshots or demo video here.
-
-🔗 GitHub Repository
-
-Add your GitHub repository link here.
-
-👨‍💻 Author
-
-Vishnuvardhan Gali
-
-inka manchiga evu
 🚗 Driver Drowsiness Detection System using AI
 
 An AI-powered Driver Monitoring System developed using Python, OpenCV, MediaPipe, and Streamlit that detects driver drowsiness in real time through webcam analysis.
@@ -119,10 +67,6 @@ Telegram/SMS notifications
 Cloud data storage
 Driver analytics dashboard
 Advanced AI-based sleep prediction
-Mobile app integration
-🔗 GitHub Repository
-
-Add your GitHub repository link here.
 
 👨‍💻 Author
 Vishnuvardhan Gali
